@@ -30,7 +30,7 @@
 
 #define FCCH_HITS_NEEDED        (USEFUL_BITS - 4)
 #define FCCH_MAX_MISSES         1
-#define FCCH_MAX_FREQ_OFFSET    100
+#define FCCH_MAX_FREQ_OFFSET    20000
 
 #define CHAN_IMP_RESP_LENGTH  5
 

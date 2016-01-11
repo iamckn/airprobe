@@ -250,9 +250,3 @@ $(DEPDIR)/gsm-generate-stamp:
 ## to continue.
 ##
 	touch $(DEPDIR)/gsm-generate-stamp
-
-# KLUDGE: Force runtime include of a SWIG dependency file.  This is
-# not guaranteed to be portable, but will probably work.  If it works,
-# we have accurate dependencies for our swig stuff, which is good.
-
-@am__include@ @am__quote@./$(DEPDIR)/gsm.d@am__quote@
