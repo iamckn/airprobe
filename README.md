@@ -5,6 +5,7 @@ The patch makes it use gnuradio-runtime instead of gnuradio-core to resolve comp
 Tested and working with the HackRF one.
 
 Compiling:
+
 	cd airprobe/gsm-receiver/
 	./bootstrap
 	./configure
