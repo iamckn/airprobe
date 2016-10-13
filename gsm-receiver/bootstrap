@@ -19,6 +19,9 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 
+if [ `uname` = "Darwin" ]; then
+  alias libtoolize=glibtoolize
+fi
 
 rm -fr config.cache autom4te*.cache
 
